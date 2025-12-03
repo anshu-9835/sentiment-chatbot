@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "greetings"],
+      "responses": ["Hi there! What's on your mind?", "Hello! How can I help you today?", "Hey! Feel free to share your thoughts with me."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["goodbye", "bye", "see you later", "farewell", "talk to you later"],
+      "responses": ["Goodbye! Have a great day!", "See you later! Feel free to come back anytime.", "Thank you for chatting with me! Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "appreciate it", "thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "i need help", "can you help", "assist me"],
+      "responses": ["I'm here to help! What do you need?", "How can I assist you?", "Tell me what you need help with."]
+    },
+    {
+      "tag": "positive",
+      "patterns": ["amazing", "excellent", "great job", "wonderful", "fantastic", "love it"],
+      "responses": ["Great! I'm happy for you.", "That's wonderful to know!", "I'm glad to hear that!"]
+    },
+    {
+      "tag": "negative",
+      "patterns": ["terrible", "awful", "bad service", "disappointed", "worst", "hate it"],
+      "responses": ["I understand your concern. I'll make sure it's addressed.", "I'm sorry to hear that. Let me help you with this.", "I appreciate you sharing this. How can I improve things?"]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["who are you", "what are you", "your name", "tell me about yourself"],
+      "responses": ["I'm a sentiment-aware chatbot here to help you!", "I'm your friendly AI assistant.", "I'm here to chat and understand your mood."]
+    }
+  ]
+}

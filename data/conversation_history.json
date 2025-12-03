@@ -1,0 +1,26 @@
+{
+  "messages": [
+    {
+      "sender": "user",
+      "text": "hii",
+      "timestamp": "2025-12-03T13:42:16.049451",
+      "sentiment": {
+        "score": 0.0,
+        "label": "Neutral",
+        "detailed_scores": {
+          "positive": 0.0,
+          "negative": 0.0,
+          "neutral": 1.0
+        }
+      }
+    },
+    {
+      "sender": "bot",
+      "text": "Hi there! What's on your mind?",
+      "timestamp": "2025-12-03T13:42:16.049881",
+      "sentiment": null
+    }
+  ],
+  "start_time": "2025-12-03T13:42:14.127247",
+  "duration_seconds": 6.9504
+}
